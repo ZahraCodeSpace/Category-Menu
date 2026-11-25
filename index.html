@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-gradient-to-br from-rose-50 via-purple-50 to-indigo-100">
+
+    <button id="btn"
+        class="fixed top-5 left-5 z-50 p-3 rounded-xl bg-gradient-to-r from-fuchsia-500 via-violet-500 to-indigo-500 text-white shadow-xl hover:scale-105 hover:shadow-2xl transition duration-300">
+        <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+    </button>
+
+    <div id="menu"
+        class="fixed top-0 left-[-300px] w-[300px] h-full bg-white border-r border-purple-100 shadow-[0_10px_40px_rgba(139,92,246,.18)] z-40 transition-all duration-500 p-6 pt-24">
+
+        <h2
+            class="text-3xl font-extrabold mb-8 pb-4 border-b border-purple-200 bg-gradient-to-r from-fuchsia-600 via-violet-600 to-indigo-600 bg-clip-text text-transparent">
+            Categories
+        </h2>
+
+        <ul class="space-y-4">            <li class="rounded-2xl overflow-hidden bg-white border border-purple-100 shadow-md hover:shadow-xl hover:border-violet-300 transition-all duration-300">
+
+                <button
+                    class="question w-full flex justify-between items-center p-4 bg-gradient-to-r from-purple-50 via-pink-50 to-indigo-50 hover:from-violet-100 hover:via-pink-100 hover:to-indigo-100 transition-all duration-300 font-semibold text-gray-700">
+                    <span>Laptops</span>
+                    <span class="text-violet-600">▼</span>
+                </button>
+
+                <div class="accordion-content overflow-hidden transition-all duration-500 bg-white text-gray-600">
+
+                    <p class="py-3 px-4 border-b border-gray-100 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        ASUS
+                    </p>
+
+                    <p class="py-3 px-4 border-b border-gray-100 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        Lenovo
+                    </p>
+
+                    <p class="py-3 px-4 border-b border-gray-100 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        Dell
+                    </p>
+
+                    <p class="py-3 px-4 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        Apple
+                    </p>
+
+                </div>
+
+            </li>
+
+
+            <li class="rounded-2xl overflow-hidden bg-white border border-purple-100 shadow-md hover:shadow-xl hover:border-violet-300 transition-all duration-300">
+
+                <button
+                    class="question w-full flex justify-between items-center p-4 bg-gradient-to-r from-purple-50 via-pink-50 to-indigo-50 hover:from-violet-100 hover:via-pink-100 hover:to-indigo-100 transition-all duration-300 font-semibold text-gray-700">
+                    <span>Mobiles</span>
+                    <span class="text-violet-600">▼</span>
+                </button>
+
+                <div class="accordion-content overflow-hidden transition-all duration-500 bg-white text-gray-600">
+
+                    <p class="py-3 px-4 border-b border-gray-100 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        iPhone
+                    </p>
+
+                    <p class="py-3 px-4 border-b border-gray-100 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        Xiaomi
+                    </p>
+
+                    <p class="py-3 px-4 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        Samsung
+                    </p>
+
+                </div>
+
+            </li>            <li class="rounded-2xl overflow-hidden bg-white border border-purple-100 shadow-md hover:shadow-xl hover:border-violet-300 transition-all duration-300">
+
+                <button
+                    class="question w-full flex justify-between items-center p-4 bg-gradient-to-r from-purple-50 via-pink-50 to-indigo-50 hover:from-violet-100 hover:via-pink-100 hover:to-indigo-100 transition-all duration-300 font-semibold text-gray-700">
+                    <span>Headphones</span>
+                    <span class="text-violet-600">▼</span>
+                </button>
+
+                <div class="accordion-content overflow-hidden transition-all duration-500 bg-white text-gray-600">
+
+                    <p class="py-3 px-4 border-b border-gray-100 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        Sony
+                    </p>
+
+                    <p class="py-3 px-4 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        Bose
+                    </p>
+
+                </div>
+
+            </li>
+
+            <li class="rounded-2xl overflow-hidden bg-white border border-purple-100 shadow-md hover:shadow-xl hover:border-violet-300 transition-all duration-300">
+
+                <button
+                    class="question w-full flex justify-between items-center p-4 bg-gradient-to-r from-purple-50 via-pink-50 to-indigo-50 hover:from-violet-100 hover:via-pink-100 hover:to-indigo-100 transition-all duration-300 font-semibold text-gray-700">
+                    <span>Airpods</span>
+                    <span class="text-violet-600">▼</span>
+                </button>
+
+                <div class="accordion-content overflow-hidden transition-all duration-500 bg-white text-gray-600">
+
+                    <p class="py-3 px-4 border-b border-gray-100 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        Airpods Pro
+                    </p>
+
+                    <p class="py-3 px-4 border-b border-gray-100 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        Airpods Max
+                    </p>
+
+                    <p class="py-3 px-4 hover:bg-violet-50 hover:text-violet-700 cursor-pointer transition-all duration-300">
+                        Airpods 3
+                    </p>
+
+                </div>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <script>
+        const btn = document.querySelector('#btn');
+        const menu = document.querySelector('#menu');
+        let flag = true;
+
+        btn.addEventListener('click', () => {
+            if (flag) {
+                menu.style.left = '0';
+                btn.innerHTML = '<svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>';
+            } else {
+                menu.style.left = '-300px';
+                btn.innerHTML = '<svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/></svg>';
+
+                ///////////صفحه رفرش بشع/////////////////////////
+                document.querySelectorAll('.accordion-content').forEach(function (val) {
+                    val.style.height = '0px';
+                    val.dataset.status = 'off';
+                });
+            }
+            flag = !flag;
+            ///////////صفحه رفرش بشع/////////////////////////
+        });
+
+        const questions = document.querySelectorAll('.question');
+        const h2 = document.querySelectorAll('.question')
+        const p = document.querySelectorAll('.accordion-content')
+
+        p.forEach((val) => {
+            val.setAttribute('data-h', val.clientHeight)
+            val.setAttribute('data-status', 'off')
+            val.style.height = '0'
+        })
+
+        h2.forEach((val, i) => {
+            val.addEventListener('click', () => {
+
+                p.forEach((item, index) => {
+                    if (i != index) {
+                        item.style.height = '0'
+                        item.dataset.status = 'off'
+                    }
+                })
+
+                if (val.nextElementSibling.getAttribute('data-status') == 'off') {
+                    val.nextElementSibling.style.height =val.nextElementSibling.getAttribute('data-h') + 'px'
+                    val.nextElementSibling.dataset.status = 'on'
+                } else {
+                    val.nextElementSibling.style.height = '0'
+                    val.nextElementSibling.dataset.status = 'off'
+                }
+
+            })
+        })
+    </script>
+</body>
+
+</html>
